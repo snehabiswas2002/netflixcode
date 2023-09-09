@@ -1,0 +1,90 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #efeaead8;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    /*display: flex;*/
+}
+.hero-content{
+    color: white;
+}
+
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    background-color: #e50914;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+    background-color: #f3eaea;
+    color: #aaa;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+}
